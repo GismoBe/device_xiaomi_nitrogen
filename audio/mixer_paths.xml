@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!-- Copyright (c) 2015-2017, The Linux Foundation. All rights reserved.    -->
 <!--                                                                        -->
@@ -2160,9 +2161,11 @@
     </path>
 
     <path name="handset">
-        <ctl name="SEC_MI2S_RX Channels" value="One" />
-        <ctl name="Configuration" value="3" />
-        <ctl name="TAS2559 DAC Playback Volume" value="11" />
+        <ctl name="RX1 MIX1 INP1" value="RX1" />
+        <ctl name="RDAC2 MUX" value="RX1" />
+        <ctl name="RX1 Digital Volume" value="88" />
+        <ctl name="EAR PA Gain" value="POS_6_DB" />
+        <ctl name="EAR_S" value="Switch" />
     </path>
 
     <path name="va-enroll-mic">
