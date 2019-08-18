@@ -29,10 +29,9 @@ $(call inherit-product, vendor/xiaomi/nitrogen/nitrogen-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-aosip
 
-PRODUCT_ENFORCE_RRO_TARGETS := \
-    framework-res
+#PRODUCT_ENFORCE_RRO_TARGETS := \
+ #   framework-res
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -384,8 +383,10 @@ PRODUCT_PACKAGES += \
 
 # Telephony
 PRODUCT_PACKAGES += \
-    telephony-ext
-
+    ims-ext-common \
+    telephony-ext \
+    qti-telephony-common
+    
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
