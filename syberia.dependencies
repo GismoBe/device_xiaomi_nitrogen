@@ -19,7 +19,7 @@
     "branch": "pie-nitrogen"
   }
   {
-    "repository": "hardware_qcom_display-caf_msm8998",
+    "repository": "GismoBe/hardware_qcom_display-caf_msm8998",
     "target_path": "hardware/qcom/display-caf/msm8998",
     "branch": "pie-caf"
   },
