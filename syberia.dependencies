@@ -18,4 +18,18 @@
     "target_path": "vendor/MiuiCamera",
     "branch": "pie-nitrogen"
   }
+  {
+    "repository": "hardware_qcom_display-caf_msm8998",
+    "target_path": "hardware/qcom/display-caf/msm8998",
+    "branch": "pie-caf"
+  },
+   {
+    "repository": "GismoBe/hardware_qcom_media-caf_msm8998",
+    "target_path": "hardware/qcom/media-caf/msm8998",
+    "branch": "pie-caf"
+  },
+   {
+    "repository": "GismoBe/hardware_qcom_audio-caf_msm8998",
+    "target_path": "hardware/qcom/audio-caf/msm8998",
+    "branch": "pie-caf"
 ]
