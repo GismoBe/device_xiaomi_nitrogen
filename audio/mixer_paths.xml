@@ -2161,12 +2161,10 @@
 
     <path name="handset">
 	<ctl name="RX1 MIX1 INP1" value="RX1" />
-        <ctl name="Configuration" value="3" />
-        <ctl name="RDAC2 MUX" value="RX1" />
-        <ctl name="TAS2559 DAC Playback Volume" value="11" />
+	<ctl name="RDAC2 MUX" value="RX1" />
         <ctl name="RX1 Digital Volume" value="92" />
-        <ctl name="EAR PA Gain" value="POS_6_DB" />
-        <ctl name="EAR_S" value="Switch" />
+	<ctl name="EAR PA Gain" value="POS_6_DB" />
+	<ctl name="EAR_S" value="Switch" />
     </path>
 
     <path name="va-enroll-mic">
