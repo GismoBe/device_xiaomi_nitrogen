@@ -23,12 +23,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 $(call inherit-product, device/xiaomi/nitrogen/device.mk)
 
 # Inherit some common AOSiP stuff.
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
+$(call inherit-product, vendor/havoc/config/common.mk)
 
 # Inherit from custom vendor
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
-PRODUCT_NAME := aosip_nitrogen
+PRODUCT_NAME := havoc_nitrogen
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := nitrogen
 PRODUCT_MANUFACTURER := Xiaomi
@@ -42,5 +42,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="nitrogen-user 9 PKQ1.181007.001 V10.3.1.0 release-keys"
 
 BUILD_FINGERPRINT := Xiaomi/nitrogen/nitrogen:9/PKQ1.181007.001/V10.3.1.0.PEDCNXM:user/release-keys
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.havoc.maintainer=GismoBe
 
 TARGET_VENDOR := Xiaomi
